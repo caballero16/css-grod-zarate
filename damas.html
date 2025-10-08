@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablero de damas</title>
+    <style>
+        body{
+            display: grid;
+            grid-template-columns: repeat(10, 100px);
+            grid-template-rows: repeat(10, 100px);
+        }
+        section{
+            background-color: black;
+            color: white;
+            grid-template: 100px 300px;
+        }
+        .BoxWhite{
+            background-color: white;
+        }
+        .BoxBlack{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <section class="BoxBlack"></section>
+    <section class="BoxWhite"></section>
+    <section class="BoxBlack"></section>
+    <section class="BoxWhite"></section>
+</body>
+</html>
